@@ -10,7 +10,7 @@ const GalleryPage = (props) => {
       <h2 className="text-center">Our Recent Projects</h2>
       <div className="gallery-content">
       <Gallery>
-        {rpdata?.stock?.map((item, index) => (
+        {rpdata?.gallery?.map((item, index) => (
           <Item original={item} thumbnail={item} width="1024" height="768" padding="10px">
             {({ ref, open }) => <img ref={ref} onClick={open} src={item} />}
           </Item>

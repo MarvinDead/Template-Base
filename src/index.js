@@ -10,7 +10,7 @@ import { GlobalDataContext } from "./context/context";
 import axios from "axios";
 
 function Root() {
-  const id = "6320adad48dc3dbded2db703";
+  const id = "6321ecd83c865e2c31b7dc25";
   const [rpdata, setrpdata] = useState({});
 
   //useEffect para peticion al servidor

@@ -39,6 +39,9 @@ const Home_V1 = () => {
       <CallToAction />
       <HomeAbout />
       <Directories />
+      <div className="container">
+        <h2 className="text-center mt-5">What Our Clients Say</h2>
+        <div class="elfsight-app-905d807a-5709-4051-85d0-686e3000700f"></div></div>
       <RecentProjects />
       <HomeServices />
       <ModalHome />

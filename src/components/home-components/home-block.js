@@ -13,7 +13,7 @@ const HomeBlock = (props) => {
             <div className="col-lg-4 order-lg-12">
               <div
                 className="thumb"
-                style={{ backgroundImage:`url("${rpdata?.stock?.[6]}")`}}
+                style={{ backgroundImage:`url("${rpdata?.stock?.[0]}")`}}
               />
             </div>
             <div className="col-lg-8 order-lg-1">

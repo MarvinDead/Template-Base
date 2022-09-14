@@ -28,7 +28,7 @@ const ServicePage = () => {
       <PageHeader
         headertitle="Services"
         Subheader="Services"
-        bgimg={rpdata?.stock?.[3]}
+        bgimg={rpdata?.gallery?.[4]}
       />
       <Services />
       <Footer />

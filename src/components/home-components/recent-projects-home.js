@@ -12,7 +12,7 @@ const RecentProjects = (props) => {
           <h2>Recent Projects</h2>
         </div>
         <div className="row">
-          {rpdata?.stock?.slice(0,6).map((item, index) => {
+          {rpdata?.gallery?.slice(0,6).map((item, index) => {
             return (
               <div className="col-lg-4 col-md-6">
                 <div className="single-category-product-wrap">
@@ -23,7 +23,7 @@ const RecentProjects = (props) => {
                     />
                   </div>
                   <div className="single-category-product-details">
-                    <Link className="btn btn-base" to="/stock">
+                    <Link className="btn btn-base" to="/gallery">
                       All Projects
                     </Link>
                   </div>

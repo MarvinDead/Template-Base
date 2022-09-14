@@ -28,7 +28,7 @@ const ContactPage = () => {
       <PageHeader
         headertitle="Contact"
         Subheader="Contact"
-        bgimg={rpdata?.stock?.[8]}
+        bgimg={rpdata?.gallery?.[7]}
       />
       <ContactForm />
       <Footer />

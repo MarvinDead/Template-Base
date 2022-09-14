@@ -28,7 +28,7 @@ const GalleryPage = () => {
       <PageHeader
         headertitle="Gallery"
         Subheader="Gallery"
-        bgimg={rpdata?.stock?.[2]}
+        bgimg={rpdata?.gallery?.[2]}
       />
       <Gallery />
       <Footer />

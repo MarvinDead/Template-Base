@@ -30,7 +30,7 @@ const Directories = (props) => {
       <div className="container">
         <h2 className="pd-top-100 text-center">Find Us</h2>
         <div className="row justify-content-center pd-top-20">
-          {/* {rpdata?.dbSocialMedia?.directorios.map((item, index) => {
+          {rpdata?.dbSocialMedia?.directorios.map((item, index) => {
             return (
               <div
                 className="col-lg-3 col-md-6 text-center content-directorios"
@@ -41,7 +41,7 @@ const Directories = (props) => {
                 </a>
               </div>
             );
-          })} */}
+          })}
           {rpdata?.dbSocialMedia?.redes.map((item, index) => {
             return (
               <div

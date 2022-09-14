@@ -31,7 +31,7 @@ const AboutPage = () => {
       <PageHeader
         headertitle="About Us"
         Subheader="About"
-        bgimg={`${rpdata?.stock?.[6]}`}
+        bgimg={`${rpdata?.gallery?.[6]}`}
       />
       <About />
       <Counter />
